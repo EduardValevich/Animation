@@ -35,7 +35,7 @@ body {
 }
 
 .white-2 {
-    background-color: rgb(201, 92, 92);
+    background-color: rgb(192, 5, 5);
     height: 600px;
     width: 800px;
     display: flex;
@@ -46,12 +46,14 @@ body {
 
 .button-1 {
     padding: 50px 120px;
-    background-color: red;
+    background-color: rgb(124, 13, 13);
     font-size: 35px;
     border-radius: 20px;
-    box-shadow: 0 3px 20px 10px rgba(0, 0, 0,.25);
+    box-shadow: 0 3px 20px 10px rgba(0, 0, 0,.25); 
+    border: none;
+    text-transform: uppercase;
     transition-duration: 1s;
-}
+}   
 
 .button-1:hover {
     box-shadow: 0 10px 20px 15px rgba(0, 0, 0, 0.658);   
@@ -73,11 +75,76 @@ body {
     background-color: rgb(0, 0, 0);
     font-size: 35px;
     border-radius: 80px;
-    color: white;
-    transition-duration: 250ms;
+    color: white; 
     border: none;
+    text-transform: uppercase;
+    transition-duration: 250ms;
 }
 
 .button-2:hover {
     background-color: rgb(60, 248, 160);
+}
+
+.white-4 {
+    margin-top: 150px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    flex-flow: wrap column;
+}
+
+.white-4 > button {
+    width: 75%;
+    padding: 15px 70px;
+    margin-top: 10px;
+    border-radius: 70px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+    transition: 300ms;
+    
+}
+
+.alpha {
+    background-color: rgb(0, 252, 231);
+    color: rgb(177, 10, 228);
+}
+
+.alpha:hover {
+    background-color: rgb(177, 10, 228);
+    color: rgb(0, 252, 231);
+}
+
+.beta {
+    background-color: rgb(0, 101, 252);
+    color: rgb(10, 228, 119);
+}
+
+.beta:hover {
+    background-color: rgb(10, 228, 119);
+    color:rgb(0, 101, 252);
+}
+
+.gamma {
+    background-color: rgb(255, 187, 0);
+    color: rgba(255, 51, 0, 0.822);
+}
+
+.gamma:hover {
+    background-color: rgba(255, 51, 0, 0.822);
+    color: rgb(255, 187, 0);;
+}
+
+.delta {
+    background-color: rgb(148, 243, 6);
+    color: hotpink;
+}
+
+.delta:hover {
+    background-color: hotpink;
+    color: rgb(148, 243, 6);
 }
