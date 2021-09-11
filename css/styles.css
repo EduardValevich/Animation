@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top:20%;
+    flex-direction: column;
+}
+
+.white {
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.black {
+    background-color: rgba(26, 26, 26, 0.781);
+    height: 200px;
+    width: 200px;
+    animation-name: rotation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.white-2 {
+    background-color: rgb(201, 92, 92);
+    height: 600px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.button-1 {
+    padding: 50px 120px;
+    background-color: red;
+    font-size: 35px;
+    border-radius: 20px;
+    box-shadow: 0 3px 20px 10px rgba(0, 0, 0,.25);
+    transition-duration: 1s;
+}
+
+.button-1:hover {
+    box-shadow: 0 5px 20px 15px rgba(0, 0, 0, 0.658);   
+    transform: translate(0,6px);
+}
