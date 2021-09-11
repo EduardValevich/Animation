@@ -16,7 +16,7 @@ body {
     align-items: center;
 }
 .black {
-    background-color: rgba(26, 26, 26, 0.781);
+    background-color: rgba(10, 9, 9, 0.945);
     height: 200px;
     width: 200px;
     animation-name: rotation;
@@ -35,7 +35,7 @@ body {
 }
 
 .white-2 {
-    background-color: rgb(192, 5, 5);
+    background-color: rgb(230, 54, 1);
     height: 600px;
     width: 800px;
     display: flex;
@@ -46,7 +46,7 @@ body {
 
 .button-1 {
     padding: 50px 120px;
-    background-color: rgb(124, 13, 13);
+    background-color: rgb(156, 5, 5);
     font-size: 35px;
     border-radius: 20px;
     box-shadow: 0 3px 20px 10px rgba(0, 0, 0,.25); 
