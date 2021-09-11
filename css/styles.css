@@ -148,3 +148,49 @@ body {
     background-color: hotpink;
     color: rgb(148, 243, 6);
 }
+
+.clock {
+    background-image: url(../watch/22.1.png);
+    background-size: 100%;
+}
+
+.watch {
+    display: flex;
+    margin-top: 150px;
+    width: 500px;
+    height: 500px;
+    background-color: #ffffff;
+}
+
+.line {
+    height: 0px;
+    top: 50%;
+    left: 50%;
+    display: block;
+    position: relative;
+    animation-name: mow;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.line::after {
+    background-color: #201f19;
+    content: "";
+    width: 1px;
+    height: 140px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    display: block;
+}
+
+@keyframes mow {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
